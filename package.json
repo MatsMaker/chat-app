@@ -1,0 +1,34 @@
+{
+  "name": "chat-app",
+  "version": "0.0.1",
+  "description": "chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsMaker/chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "node"
+  ],
+  "author": "matsMaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatsMaker/chat-app/issues"
+  },
+  "homepage": "https://github.com/MatsMaker/chat-app#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "mongoose": "^4.6.2",
+    "underscore": "^1.8.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "PORT": "3000",
+  "staticDir": "./public",
+  "SECRET": "secret key",
+  "dataBase": {
+    "db": "chatApp",
+    "host": "localhost",
+    "port": "27017",
+    "username": "",
+    "password": "",
+    "collection": "sessions"
+  }
+}
